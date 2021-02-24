@@ -39,14 +39,14 @@
     <!-- TODO #4 - Loop over the search results to display all job fields. -->
     <table class="job-listing">
         <thead>
-        <tr>
+        <!--<tr>
             <th>ID</th>
             <th>Name</th>
             <th>Employer</th>
             <th>Location</th>
             <th>Position Type</th>
             <th>Skill</th>
-        </tr>
+        </tr>-->
         </thead>
         <tr th:each="job : ${jobs}" >
             <td th:text="${job.id}"></td>
